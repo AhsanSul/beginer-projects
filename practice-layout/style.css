@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+    border: 1px solid black;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    height: 4rem;
+    background: #7091C3;
+}
+.banner{
+    width: 100%;
+    height: 6rem;
+    background: #807E82;
+}
+.section-2{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    height: 4rem;
+}
+.box{
+    background: #115C96;
+    width: 25%;
+}
+
+.sec-3{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+}
+.con-1{
+    width: 55%;
+    background: #249EB5;
+}
+.con-2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 0.5rem;
+}
+.con-2-b{
+    background: #167283;
+    width: 100%;
+    height: 50%;
+}
+
+.info-box{
+    width: 100%;
+    height: 18rem;
+    background: #BC7F57;
+}
+.footer{
+    width: 100%;
+    height: 6rem;
+    background: #8085C3;
+}
